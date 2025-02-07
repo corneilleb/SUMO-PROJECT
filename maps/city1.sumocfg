@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <!-- General simulation parameters -->
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+        <step-length value="1"/>
+    </time>
+    
+    <!-- Input files -->
+    <input>
+        <net-file value="/Users/corneille/SUMO PROJECT/maps/city1.net.xml"/>
+        <route-files value="maps/city1.rou.xml"/>
+        <additional-files value="maps/city1.additional.xml"/>
+    </input>
+
+    <!-- Output files -->
+    <output>
+        <tripinfo-output value="output/tripinfo.xml"/>
+    </output>
+
+</configuration>

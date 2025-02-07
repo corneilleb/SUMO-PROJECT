@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file>maps/city1.net.xml</net-file>
+        <route-files>maps/city1.rou.xml</route-files>
+    </input>
+    <time>
+        <begin>0</begin>
+        <end>3600</end>
+    </time>
+</configuration>
+

@@ -1,0 +1,22 @@
+{
+  
+    "model_save_path": "models/dqn_model.pth",
+    "tripinfo_output": "output/tripinfo.xml",
+    "sumo_config": "maps/city1.sumocfg",
+    "epochs": 100,
+    "steps": 500,
+    "gui": false,
+    "phases": ["GGrr", "rrGG", "GrrG", "rGGr"],
+    "duration": 30,
+    "agent": {
+        "gamma": 0.99,
+        "epsilon": 1.0,
+        "epsilon_decay": 0.995,
+        "epsilon_min": 0.01,
+        "batch_size": 32,
+        "memory_limit": 10000,
+        "input_dim": 4,
+        "hidden_dim": 64,
+        "lr": 0.001
+    }
+}
